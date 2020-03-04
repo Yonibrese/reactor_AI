@@ -1,0 +1,15 @@
+﻿Application name: reactor-ea74b
+Application settings (stored as environmental variables on server):
+  COGSVCS_CLIENTURL: https://northcentralus.api.cognitive.microsoft.com/
+  COGSVCS_KEY: dc97bb6053514c849d36ce91869b3c0f
+Deployment info:
+  Git url: https://reactor-ea74b.scm.azurewebsites.net/reactor-ea74b.git
+  User name: $reactor-ea74b
+  User password: wEnXSnPgifrbJGv8fBhjoZ0BrMbrgaalmpN1hrpTXQv3ic9yS3neC6Gvcnr0
+Deployment steps:
+  1- Create git repository: git init
+  2- Add all code: git add .
+  3- Commit code: git commit -m 'Initial commit'
+  4- Add remote to git: git remote add azure https://reactor-ea74b.scm.azurewebsites.net/reactor-ea74b.git
+  5- Deploy to Azure: git push -u azure master
+Website url: https://reactor-ea74b.azurewebsites.net
